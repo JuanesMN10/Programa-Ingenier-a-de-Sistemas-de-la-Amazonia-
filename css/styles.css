@@ -1,4 +1,3 @@
-/* ===== Reset (Clase 2 y 3) ===== */
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +21,7 @@ h3{
     margin-bottom: 6px;
 }
 
-/* ===== Encabezado (Flexbox, Clase 4) ===== */
+
 #encabezado{
     background-color: #1f7a5c;
     color: white;
@@ -44,7 +43,7 @@ h3{
     margin-top: 10px;
 }
 
-/* ===== Menu (Pseudoclase :hover y anidado, Clase 6) ===== */
+
 #menu{
     background-color: #f1f1f1;
     box-shadow: 0px 5px 10px rgb(88, 87, 87);
@@ -77,7 +76,7 @@ h3{
     display: block;
 }
 
-/* ===== Estructura con Grid, mobile first (Clase 5) ===== */
+
 #container{
     display: grid;
     grid-template-columns: 100%;
@@ -128,7 +127,7 @@ aside{
     padding: 25px 20px;
 }
 
-/* ===== Componentes ===== */
+
 .caja{
     background-color: #f1f1f1;
     border: solid #cccccc 1px;
@@ -197,7 +196,7 @@ aside li{
     margin-bottom: 8px;
 }
 
-/* ===== Boton fijo (position: fixed, Clase 3) ===== */
+
 #botonContacto{
     width: 70px;
     height: 70px;
@@ -219,7 +218,7 @@ aside li{
     }
 }
 
-/* ===== Pie de pagina ===== */
+
 footer{
     background-color: #15543f;
     color: white;
@@ -248,7 +247,7 @@ footer a{
     }
 }
 
-/* ===== Responsive: tablet (Clase 5) ===== */
+
 @media (min-width: 480px) and (max-width: 768px){
     #container{
         grid-template-columns: 50% 50%;
@@ -270,7 +269,7 @@ footer a{
     }
 }
 
-/* ===== Responsive: escritorio ===== */
+
 @media (min-width: 769px){
     #container{
         grid-template-columns: 70% 30%;
